@@ -27,7 +27,7 @@
 @implementation SKSessionManger
 static SKSessionManger *sharedObject = nil;
 
-+ (id) sharedSessionManger
++ (SKSessionManger *) sharedSessionManger
 {
     if (! sharedObject) {
         sharedObject = [[SKSessionManger alloc] init];

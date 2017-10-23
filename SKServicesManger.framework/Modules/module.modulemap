@@ -1,0 +1,6 @@
+framework module SKServicesManger {
+  umbrella header "SKServicesManger.h"
+
+  export *
+  module * { export * }
+}
